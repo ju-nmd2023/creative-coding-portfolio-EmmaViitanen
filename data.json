@@ -1,8 +1,8 @@
 [
   {
     "file": "experiments/molnar1.js",
-    "name": "Molnár 2",
-    "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview."
+    "name": "Molnar",
+    "description": "Recreation of one of Vera Molnárs artworks. The code was inspired by Garrits molnar.js but modified. The main idea was to make it pop with some motion and color. By playing around with the code I managed to randomize the color of each stroke and make the artwork flicker."
   },
   {
     "file": "experiments/example.js",

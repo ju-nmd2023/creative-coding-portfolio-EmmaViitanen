@@ -1,6 +1,7 @@
 //This code was inspired by Garrit's molnar.js and modified by me
 function setup() {
   createCanvas(600, 600);
+  frameRate(5);
 }
 
 const size = 100;
@@ -50,5 +51,5 @@ function draw() {
     }
   }
 
-  noLoop();
+  //   noLoop();
 }
