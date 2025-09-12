@@ -1,5 +1,10 @@
 [
   {
+    "file": "experiments/drawFlow.js",
+    "name": "Name of your experiment",
+    "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview."
+  },
+  {
     "file": "experiments/molnar2.js",
     "name": "Molnar Roses",
     "description": "Recreation of one of Vera Molnárs artworks. The code was inspired by Garrits molnar.js but modified to look like roses instad of squares. The main idea was to recreate it using different forms. By playing around with the code I managed to change the bakground and the stroke to different kinds of red and with the help of ChatGPT i created the look of roses."
