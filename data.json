@@ -1,8 +1,8 @@
 [
   {
     "file": "experiments/drawFlow.js",
-    "name": "Name of your experiment",
-    "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview."
+    "name": "The Ocean",
+    "description": "A wavy ocean created with the help of ChatGPT."
   },
   {
     "file": "experiments/molnar2.js",
