@@ -37,7 +37,7 @@ function drawLayers(x, y, size, layers) {
 }
 
 function draw() {
-  background(71, 10, 10);
+  background(255);
 
   // drawLayers(100, 100, size, layers);
   for (let y = 0; y < 10; y++) {
