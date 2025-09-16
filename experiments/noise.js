@@ -1,4 +1,4 @@
-// This code was inspired by Garrit
+// This code was inspired by Garrit's noise example code
 function setup() {
   createCanvas(innerWidth, innerHeight);
   frameRate(15);
