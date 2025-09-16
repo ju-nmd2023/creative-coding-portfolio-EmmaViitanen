@@ -1,5 +1,10 @@
 [
   {
+    "file": "experiments/noise.js",
+    "name": "Polka dots",
+    "description": "Recreation of Garrit's noise example. Played around with colors, sizes and the noise."
+  },
+  {
     "file": "experiments/drawFlow.js",
     "name": "The Ocean",
     "description": "A wavy ocean created with the help of ChatGPT."

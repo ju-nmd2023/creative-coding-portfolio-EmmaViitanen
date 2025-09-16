@@ -6,13 +6,13 @@ let t = 0; // time variable
 
 function setup() {
   createCanvas(innerWidth, innerHeight);
-  stroke(0, 59, 97);
+  stroke(255, 255, 255, 150);
   strokeWeight(2);
   noFill();
 }
 
 function draw() {
-  background(49, 141, 178);
+  background(0, 0, 355);
   //   background(240); // clear each frame
 
   cols = width / scl;
