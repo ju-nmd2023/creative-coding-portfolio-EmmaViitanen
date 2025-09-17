@@ -2,14 +2,14 @@
 
 function setup() {
   createCanvas(innerWidth, innerHeight);
-  frameRate(20);
+  frameRate(15);
 }
 
-const size = 5; // dot size
-const divider = 20; // controls noise variation
-const cellCols = 4; // number of pattern columns
-const cellRows = 4; // number of pattern rows
-const cellPadding = 40; // space between mini-grids
+const size = 7;
+const divider = 20;
+const cellCols = 4;
+const cellRows = 4;
+const cellPadding = 40;
 
 let counter = 100;
 
@@ -38,11 +38,11 @@ function draw() {
           } else {
             fill(205, 237, 179);
           }
-          rect(offsetX + x * size, offsetY + y * size, value, value);
+          ellipse(offsetX + x * size, offsetY + y * size, value);
         }
       }
     }
   }
 
-  counter += 0.001;
+  counter += 0.1;
 }

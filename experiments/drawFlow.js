@@ -30,4 +30,5 @@ function draw() {
     endShape();
   }
 
-  t += 0.01; // increase time for animat
+  t += 0.01; // increase time for animation
+}
