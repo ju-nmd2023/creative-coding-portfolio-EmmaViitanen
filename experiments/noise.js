@@ -24,10 +24,3 @@ function draw() {
       } else {
         fill(255, 145, 76);
       }
-
-      ellipse(size / 2 + x * size, size / 2 + y * size, value);
-    }
-  }
-
-  counter += 0.1;
-}

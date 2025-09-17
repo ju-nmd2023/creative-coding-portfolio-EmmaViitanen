@@ -1,8 +1,13 @@
 [
   {
+    "file": "experiments/noiseGrid.js",
+    "name": "The grid",
+    "description": "Recreation of Garrit's noise example. I wanted to display it in a grid where each scare is animated independently. I then played around with colors, sizes and the noise."
+  },
+  {
     "file": "experiments/noise.js",
     "name": "Polka dots",
-    "description": "Recreation of Garrit's noise example. Played around with colors, sizes and the noise."
+    "description": "Recreation of Garrit's noise example. I played around with colors, sizes and the noise."
   },
   {
     "file": "experiments/drawFlow.js",
