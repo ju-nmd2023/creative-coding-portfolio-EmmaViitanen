@@ -75,16 +75,11 @@ function draw() {
       }
     }
 
-    // draw neon square
     push();
     translate(s.x, s.y);
     rotate(s.angle);
-
-    drawingContext.shadowBlur = 20;
-    drawingContext.shadowColor = color(57, 255, 20);
-    stroke(57, 255, 20);
-    strokeWeight(3);
-    noFill();
+    fill(255, 0, 0);
+    noStroke();
     rect(0, 0, squareSize, squareSize);
     pop();
   }
