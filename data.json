@@ -10,14 +10,14 @@
     "description": "Recreation of Garrit's noise example. I played around with colors, sizes and the noise."
   },
   {
-    "file": "experiments/drawFlow.js",
-    "name": "The Ocean",
-    "description": "A wavy ocean created with the help of ChatGPT."
-  },
-  {
     "file": "experiments/gravelScotter1.js",
     "name": "Neon Gravel (Scotter)",
     "description": "Recreation of Gravel (Scotter) by George Nees. The idea was to recreate Nees's work but with a twist and it somehow reminded me of Tetris, which is why I wanted the neon look. The code was created using ChatGPT and modified by me."
+  },
+  {
+    "file": "experiments/gravelScotter2.js",
+    "name": "Broken Gravel (Scotter)",
+    "description": "Recreation of Gravel (Scotter) by George Nees. The idea was to recreate Nees's work but with a twist, resulting in changing the geometry and the type of distorsion. The further down the more distorted the circles are. The code was created using ChatGPT and modified by me."
   },
   {
     "file": "experiments/gravityGravel.js",

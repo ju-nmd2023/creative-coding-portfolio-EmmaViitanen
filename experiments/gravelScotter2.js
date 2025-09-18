@@ -1,3 +1,5 @@
+// This code was created using ChatGPT https://chatgpt.com/share/68cbc65b-5078-800b-bad5-2e508020afed and modified by me, Accessed: 2025-09-18
+
 function setup() {
   createCanvas(innerWidth, innerHeight);
   noLoop();
@@ -26,19 +28,16 @@ function draw() {
       let y = margin + r * cellH + cellH / 2;
 
       // "Destruction factor" increases with row
-      let destruction = map(r, 0, rows - 1, 0, 1);
+      let destruction = map(r, 0, rows - 1, 0, 1.7);
 
       push();
       translate(x, y);
-
-      // Neon glow
 
       stroke(255);
       strokeWeight(2);
 
       // Draw ellipse as broken arcs
       let segments = int(6 + destruction * 12); // more pieces further down
-      let removed = int(destruction * segments * 0.6); // missing chunks
       let start = 0;
       let step = TWO_PI / segments;
 
