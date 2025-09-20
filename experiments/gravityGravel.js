@@ -54,7 +54,8 @@ function initGrid() {
 }
 
 function draw() {
-  background(0);
+  //   background(0);
+  setGradient(0, 0, width, height, color(20), color(69, 92, 255));
   let t = millis();
 
   for (let s of squares) {
@@ -78,13 +79,26 @@ function draw() {
     push();
     translate(s.x, s.y);
     rotate(s.angle);
-    fill(255, 0, 0);
-    noStroke();
+    drawingContext.shadowBlur = 20;
+    drawingContext.shadowColor = color(69, 100, 255); // neon cyan
+    strokeWeight(5);
+    stroke(226);
     rect(0, 0, squareSize, squareSize);
     pop();
   }
 }
 
+// Gradient background
+// The following 8 lines of code was adapted from https://chatgpt.com/share/68ce7291-b354-800b-b7f6-336e48f88bf3 Accessed: 20-09-2025
+function setGradient(x, y, w, h, c1, c2) {
+  noFill();
+  for (let i = y; i <= y + h; i++) {
+    let inter = map(i, y, y + h, 0, 1);
+    let c = lerpColor(c1, c2, inter);
+    stroke(c);
+    line(x, i, x + w, i); // Ritar en tunn horisontell linje
+  }
+}
 // Click to start rows falling from bottom → top.
 // Clicking again resets the grid.
 function mousePressed() {
