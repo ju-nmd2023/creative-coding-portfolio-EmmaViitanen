@@ -1,5 +1,10 @@
 [
   {
+    "file": "experiments/pixels.js",
+    "name": "Exploding spiral",
+    "description": "Modification of Garrit's particle example 01. Instead of fireworks I wanted the particles to explode in a spiral. I used the help of ChatGPT to understand where to change the code in order to meet my goals."
+  },
+  {
     "file": "experiments/noiseGrid.js",
     "name": "Perlin Noise Grid",
     "description": "Recreation of Garrit's noise example. I wanted to display it in a grid where each scare is animated independently. I then played around with forms, colors and sizes."
