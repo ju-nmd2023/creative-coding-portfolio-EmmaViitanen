@@ -1,4 +1,4 @@
-// This code was inspired by Garrit's noise example code and modified using ChatGPT and my own brain
+// This code was inspired by Garrit's noise example code and modified using ChatGPT https://chatgpt.com/share/68d12c96-5d5c-800b-8d17-ec7fbf8f171a and my own brain
 
 function setup() {
   createCanvas(innerWidth, innerHeight);

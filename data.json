@@ -1,8 +1,13 @@
 [
   {
-    "file": "experiments/pixels.js",
+    "file": "experiments/particle2.js",
+    "name": "Cherry blossom",
+    "description": "Try clicking on the screen. Modification of Garrit's particle example 02. Instead of fireworks I wanted it to look like blooming cherry blossom flowers. I used the help of ChatGPT to understand where to change the code in order to meet my goals and played around with the color and amount of petals."
+  },
+  {
+    "file": "experiments/particle.js",
     "name": "Exploding spiral",
-    "description": "Modification of Garrit's particle example 01. Instead of fireworks I wanted the particles to explode in a spiral. I used the help of ChatGPT to understand where to change the code in order to meet my goals."
+    "description": "Try clicking on the screen. Modification of Garrit's particle example 01. Instead of fireworks I wanted the particles to explode in a spiral. I used the help of ChatGPT to understand where to change the code in order to meet my goals."
   },
   {
     "file": "experiments/noiseGrid.js",
