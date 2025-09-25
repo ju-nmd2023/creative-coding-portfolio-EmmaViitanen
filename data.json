@@ -1,5 +1,10 @@
 [
   {
+    "file": "experiments/flow.js",
+    "name": "Flow field",
+    "description": "Modification of Garrit's Flow field example 03. I added a trail to each stroke and changed the stroke color. I used the help of ChatGPT to help with the modifications in order to meet my goals and then played around myself with the code."
+  },
+  {
     "file": "experiments/particle2.js",
     "name": "Cherry blossom",
     "description": "Try clicking on the screen. Modification of Garrit's particle example 02. Instead of fireworks I wanted it to look like blooming cherry blossom flowers. I used the help of ChatGPT to understand where to change the code in order to meet my goals and played around with the color and amount of petals."
