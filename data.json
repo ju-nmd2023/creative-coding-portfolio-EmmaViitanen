@@ -1,5 +1,10 @@
 [
   {
+    "file": "experiments/bouncy.js",
+    "name": "Bouncy ball",
+    "description": "Modification of Garrit's Flow field example 03. I added a trail to each stroke and changed the stroke color. I used the help of ChatGPT to help with the modifications in order to meet my goals and then played around myself with the code."
+  },
+  {
     "file": "experiments/flow.js",
     "name": "Flow field",
     "description": "Modification of Garrit's Flow field example 03. I added a trail to each stroke and changed the stroke color. I used the help of ChatGPT to help with the modifications in order to meet my goals and then played around myself with the code."
@@ -48,10 +53,5 @@
     "file": "experiments/molnar1.js",
     "name": "Molnar",
     "description": "Recreation of one of Vera Molnárs artworks. The code was inspired by Garrits molnar.js but modified. The main idea was to make it pop with some motion and color. By playing around with the code I managed to randomize the color of each stroke and make the artwork flicker."
-  },
-  {
-    "file": "experiments/example.js",
-    "name": "Name of your experiment",
-    "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview."
   }
 ]
