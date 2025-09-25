@@ -2,7 +2,7 @@
   {
     "file": "experiments/bouncy.js",
     "name": "Bouncy ball",
-    "description": "Modification of Garrit's Flow field example 03. I added a trail to each stroke and changed the stroke color. I used the help of ChatGPT to help with the modifications in order to meet my goals and then played around myself with the code."
+    "description": "Modification of Garrit's Force example 02 with implication of Tone.js. Each time the ball bounced off the ground I wanted it to make a sound using Tone.js. I used the help of ChatGPT to help with the understanding and adding the sound and then played around myself with the code."
   },
   {
     "file": "experiments/flow.js",
