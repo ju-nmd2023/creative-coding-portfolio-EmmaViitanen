@@ -34,8 +34,11 @@ class Particle {
   }
 }
 
+let synth;
+
 function setup() {
   createCanvas(innerWidth, innerHeight);
+  synth = new Tone.Synth().toDestination();
 }
 function generateParticles(x, y) {
   let angleStep = 10; // spacing between each particle in radians
@@ -79,4 +82,6 @@ function draw() {
 
 function mouseClicked() {
   generateParticles(mouseX, mouseY);
+  let notes = ["A2", "B2", "C2", "D2", "E2", "F2", "G2"];
+  synth.triggerAttackRelease(random(notes), "4n");
 }
