@@ -34,7 +34,7 @@ class Agent {
       this.position.x = innerWidth;
       this.lastPosition.x = innerWidth;
     } else if (this.position.x > innerWidth) {
-      this.position.x = 0;
+      this.position.x = 1;
       this.lastPosition.x = 0;
     }
     if (this.position.y < 0) {
@@ -42,7 +42,7 @@ class Agent {
       this.lastPosition.y = innerHeight;
     } else if (this.position.y > innerHeight) {
       this.position.y = 0;
-      this.lastPosition.y = 0;
+      this.lastPosition.y = 1;
     }
   }
   // The following 10 lines of code was adapted from https://chatgpt.com/share/68d4df27-7b9c-800b-b8fb-62151df7fb92 Accessed: 25-09-2025
@@ -80,7 +80,7 @@ function generateField() {
 
 function generateAgents() {
   for (let i = 0; i < 200; i++) {
-    let agent = new Agent(Math.random() * innerWidth, Math.random() * innerHeight, 4, 0.1);
+    let agent = new Agent(Math.random() * innerWidth, Math.random() * innerHeight, 4, 0.9);
     agents.push(agent);
   }
 }

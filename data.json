@@ -46,8 +46,8 @@
   },
   {
     "file": "experiments/flow.js",
-    "name": "Flow field",
-    "description": "Modification of Garrit's Flow field example 03. I added a trail to each stroke and changed the stroke color. I used the help of ChatGPT to help with the modifications in order to meet my goals and then played around myself with the code."
+    "name": "Lightning flow field",
+    "description": "Modification of Garrit's Flow field example 03. I added a trail to each stroke, changed the stroke color and played around with the code to create more edgy strokes. I used the help of ChatGPT to help with some of the modifications in order to meet my goals and then played around myself with the code."
   },
   {
     "file": "experiments/bouncy.js",
