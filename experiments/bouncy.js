@@ -78,4 +78,15 @@ function draw() {
   }
 }
 
-function mouseClicked
+function mouseClicked() {
+  Tone.start();
+  bounce = true;
+}
+
+/* These 4 lines of code (including line 41, 62, 66, 71 & 75) was adapted 
+from https://chatgpt.com/share/68d57c3d-fe9c-800b-9aa3-ad08a08e8a8b Accessed: 25-09-2025 */
+function playBounceSound() {
+  const note = "G2"; // random notes
+  synth.triggerAttackRelease(note, "8n");
+  //   bgColor = color(random(200), random(200), random(200));
+}

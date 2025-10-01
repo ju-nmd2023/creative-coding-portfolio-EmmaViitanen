@@ -80,4 +80,8 @@ function draw() {
   }
 }
 
-function 
+function mouseClicked() {
+  generateParticles(mouseX, mouseY);
+  let notes = ["A2", "B2", "C2", "D2", "E2", "F2", "G2"];
+  synth.triggerAttackRelease(random(notes), "4n");
+}
