@@ -53,5 +53,10 @@
     "file": "experiments/bouncy.js",
     "name": "Bouncy ball",
     "description": "Try clicking on the artwork! Modification of Garrit's Force example 02 with implication of Tone.js. Each time the ball bounced off the ground I wanted it to make a sound using Tone.js. I used the help of ChatGPT to help with the understanding and adding the sound and then played around myself with the code."
+  },
+  {
+    "file": "experiments/guitarr.js",
+    "name": "Guitarr",
+    "description": "Click or press and swipe over the strings. I wanted to create a code that mimics a guitarr both in appearance and in sound. In order to create this I took help from ChatGPT and then modified the apperance to my liking."
   }
 ]

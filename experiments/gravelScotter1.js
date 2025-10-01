@@ -7,7 +7,6 @@ function setup() {
 
 function draw() {
   background(0);
-  stroke(57, 255, 20, 180);
   noFill();
 
   let cols = 12; // number of squares per row
